@@ -1,0 +1,2 @@
+[console_scripts]
+cam_director_node = cam_director.director:main

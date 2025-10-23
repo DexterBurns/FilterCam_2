@@ -1,0 +1,816 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--event-handlers', 'console_cohesion+', '--base-paths', '/home/dexter/ROS2/FilterCam', '--cmake-args', '-DCMAKE_BUILD_TYPE=Debug']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=['console_cohesion+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/dexter/ROS2/FilterCam'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Debug'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x789e4f892000>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x789e4f891400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x789e4f891400>>, mixin_verb=('build',))
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dexter/ROS2/FilterCam'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/build) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/build) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/build) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/install) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/install) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/install) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/log) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/log) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/log) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/cam_director) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/cam_director' with type 'ros.ament_python' and name 'cam_director'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Camera Settings) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/Snapshots) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/log) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/log) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/camera_scripts/log) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/empty_package) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/empty_package' with type 'ros.ament_python' and name 'empty_package'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg' with type 'ros.ament_python' and name 'filtered_pointcloud_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/filterwheel) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/filterwheel' with type 'ros.ament_python' and name 'filterwheel'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/liquidlens) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/liquidlens' with type 'ros.ament_python' and name 'liquidlens'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/package_launcher) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/package_launcher' with type 'ros.ament_python' and name 'package_launcher'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/log) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/log) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/log) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne' with type 'ros.ament_cmake' and name 'velodyne'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver' with type 'ros.ament_cmake' and name 'velodyne_driver'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan' with type 'ros.ament_cmake' and name 'velodyne_laserscan'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs' with type 'ros.ament_cmake' and name 'velodyne_msgs'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud' with type 'ros.ament_cmake' and name 'velodyne_pointcloud'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/dexter/ROS2/FilterCam/install
+[0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'cam_director' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'cam_director' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/cam_director', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/cam_director', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/cam_director', 'symlink_install': True, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'empty_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'empty_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/empty_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/empty_package', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/empty_package', 'symlink_install': True, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'filtered_pointcloud_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'filtered_pointcloud_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'filterwheel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'filterwheel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/filterwheel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/filterwheel', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/filterwheel', 'symlink_install': True, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'liquidlens' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'liquidlens' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/liquidlens', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/liquidlens', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/liquidlens', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'package_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'package_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/package_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/package_launcher', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/package_launcher', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'velodyne_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/velodyne_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/velodyne_msgs', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/velodyne_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/velodyne_driver', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver', 'symlink_install': True, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne_pointcloud' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_pointcloud' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud', 'symlink_install': True, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dexter/ROS2/FilterCam/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dexter/ROS2/FilterCam/install/velodyne', 'merge_install': False, 'path': '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne', 'symlink_install': True, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs' with build type 'ament_cmake'
+[0.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_msgs'
+[0.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan' with build type 'ament_cmake'
+[0.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_laserscan'
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.234s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/cam_director' with build type 'ament_python'
+[0.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_director', 'ament_prefix_path')
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/hook/ament_prefix_path.ps1'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/hook/ament_prefix_path.dsv'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/hook/ament_prefix_path.sh'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/empty_package' with build type 'ament_python'
+[0.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('empty_package', 'ament_prefix_path')
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/hook/ament_prefix_path.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/hook/ament_prefix_path.dsv'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/hook/ament_prefix_path.sh'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg' with build type 'ament_python'
+[0.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('filtered_pointcloud_pkg', 'ament_prefix_path')
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/ament_prefix_path.ps1'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/ament_prefix_path.dsv'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/ament_prefix_path.sh'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/filterwheel' with build type 'ament_python'
+[0.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('filterwheel', 'ament_prefix_path')
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/hook/ament_prefix_path.ps1'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/hook/ament_prefix_path.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/hook/ament_prefix_path.sh'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/liquidlens' with build type 'ament_python'
+[0.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('liquidlens', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/hook/ament_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/package_launcher' with build type 'ament_python'
+[0.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_launcher', 'ament_prefix_path')
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/hook/ament_prefix_path.ps1'
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/hook/ament_prefix_path.dsv'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/hook/ament_prefix_path.sh'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_msgs -- -j16 -l16
+[0.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_laserscan -- -j16 -l16
+[0.478s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dexter/ROS2/FilterCam/src/cam_director'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.666s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dexter/ROS2/FilterCam/src/empty_package'
+[0.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.851s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dexter/ROS2/FilterCam/src/filtered_pointcloud_pkg'
+[0.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.034s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dexter/ROS2/FilterCam/src/filterwheel'
+[1.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.220s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dexter/ROS2/FilterCam/src/liquidlens'
+[1.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_msgs -- -j16 -l16
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_msgs
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_laserscan -- -j16 -l16
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_laserscan
+[1.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dexter/ROS2/FilterCam/src/package_launcher'
+[1.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_laserscan
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan' for CMake module files
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan' for CMake config files
+[1.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[1.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[1.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[1.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib'
+[1.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/bin'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/python3.12/site-packages'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/bin'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[1.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[1.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_laserscan)
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan' for CMake module files
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan' for CMake config files
+[1.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'cmake_prefix_path')
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.dsv'
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/cmake_prefix_path.sh'
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib'
+[1.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_laserscan', 'ld_library_path_lib')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/hook/ld_library_path_lib.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/bin'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/pkgconfig/velodyne_laserscan.pc'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/python3.12/site-packages'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/bin'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.bash'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.zsh'
+[1.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/colcon-core/packages/velodyne_laserscan)
+[1.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs' for CMake module files
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_msgs
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs' for CMake config files
+[1.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib'
+[1.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/bin'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages'
+[1.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'pythonpath')
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.sh'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/bin'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[1.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_msgs)
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs' for CMake module files
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs' for CMake config files
+[1.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'cmake_prefix_path')
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.dsv'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/cmake_prefix_path.sh'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib'
+[1.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'ld_library_path_lib')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/ld_library_path_lib.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/bin'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/pkgconfig/velodyne_msgs.pc'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages'
+[1.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_msgs', 'pythonpath')
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/hook/pythonpath.sh'
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/bin'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.sh'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.bash'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.zsh'
+[1.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/colcon-core/packages/velodyne_msgs)
+[1.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver' with build type 'ament_cmake'
+[1.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver'
+[1.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.499s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud' with build type 'ament_cmake'
+[1.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne_pointcloud'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_driver -- -j16 -l16
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud -- -j16 -l16
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_driver -- -j16 -l16
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_driver
+[1.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_driver
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver' for CMake module files
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver' for CMake config files
+[1.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib'
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/bin'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/python3.12/site-packages'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/bin'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.sh'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.bash'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[1.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[1.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_driver)
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver' for CMake module files
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver' for CMake config files
+[1.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'cmake_prefix_path')
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.ps1'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.dsv'
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/cmake_prefix_path.sh'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib'
+[1.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_driver', 'ld_library_path_lib')
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/hook/ld_library_path_lib.sh'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/bin'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/pkgconfig/velodyne_driver.pc'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/python3.12/site-packages'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_driver/bin'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.ps1'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.dsv'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.sh'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.bash'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.zsh'
+[1.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_driver/share/colcon-core/packages/velodyne_driver)
+[1.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud -- -j16 -l16
+[1.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud
+[1.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud' for CMake module files
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud' for CMake config files
+[1.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib'
+[1.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/bin'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/python3.12/site-packages'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/bin'
+[1.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[1.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[1.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_pointcloud)
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud' for CMake module files
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud' for CMake config files
+[1.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'cmake_prefix_path')
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.ps1'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.dsv'
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/cmake_prefix_path.sh'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib'
+[1.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_pointcloud', 'ld_library_path_lib')
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/hook/ld_library_path_lib.sh'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/bin'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/pkgconfig/velodyne_pointcloud.pc'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/python3.12/site-packages'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/bin'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.ps1'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.sh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.bash'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.zsh'
+[1.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/colcon-core/packages/velodyne_pointcloud)
+[1.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne' with build type 'ament_cmake'
+[1.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dexter/ROS2/FilterCam/src/velodyne/velodyne'
+[1.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/home/dexter/ROS2/FilterCam/install/velodyne:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne -- -j16 -l16
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/home/dexter/ROS2/FilterCam/install/velodyne:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne -- -j16 -l16
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/home/dexter/ROS2/FilterCam/install/velodyne:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne
+[1.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne' for CMake module files
+[1.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/home/dexter/ROS2/FilterCam/install/velodyne:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne
+[1.862s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne' for CMake config files
+[1.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/bin'
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/lib/pkgconfig/velodyne.pc'
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/lib/python3.12/site-packages'
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/bin'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.dsv'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.sh'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.bash'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.zsh'
+[1.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne/share/colcon-core/packages/velodyne)
+[1.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne)
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne' for CMake module files
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne' for CMake config files
+[1.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne', 'cmake_prefix_path')
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/hook/cmake_prefix_path.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/hook/cmake_prefix_path.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/hook/cmake_prefix_path.sh'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/bin'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/lib/pkgconfig/velodyne.pc'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/lib/python3.12/site-packages'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/velodyne/bin'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.ps1'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.dsv'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.sh'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.bash'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/velodyne/share/velodyne/package.zsh'
+[1.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/velodyne/share/colcon-core/packages/velodyne)
+[2.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/empty_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/empty_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/empty_package/build --no-deps symlink_data
+[2.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/filterwheel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filterwheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filterwheel/build --no-deps symlink_data
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/liquidlens': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/liquidlens/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/liquidlens/build --no-deps symlink_data
+[2.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/cam_director': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/cam_director/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/cam_director/build --no-deps symlink_data
+[2.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build --no-deps symlink_data
+[2.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dexter/ROS2/FilterCam/build/package_launcher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/package_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/package_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/package_launcher/build --no-deps symlink_data
+[2.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('empty_package', 'pythonpath_develop')
+[2.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/empty_package/share/empty_package/hook/pythonpath_develop.ps1'
+[2.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/empty_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/empty_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/empty_package/build --no-deps symlink_data
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/build/empty_package/share/empty_package/hook/pythonpath_develop.dsv'
+[2.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/empty_package/share/empty_package/hook/pythonpath_develop.sh'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package' for CMake module files
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package' for CMake config files
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package/lib'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package/bin'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package/lib/pkgconfig/empty_package.pc'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages'
+[2.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('empty_package', 'pythonpath')
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/hook/pythonpath.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/hook/pythonpath.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/hook/pythonpath.sh'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/empty_package/bin'
+[2.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(empty_package)
+[2.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/package.ps1'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/package.dsv'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/package.sh'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/package.bash'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package/package.zsh'
+[2.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/empty_package/share/colcon-core/packages/empty_package)
+[2.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_director', 'pythonpath_develop')
+[2.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/cam_director' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/cam_director/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/cam_director/build --no-deps symlink_data
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/cam_director/share/cam_director/hook/pythonpath_develop.ps1'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/build/cam_director/share/cam_director/hook/pythonpath_develop.dsv'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/cam_director/share/cam_director/hook/pythonpath_develop.sh'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director' for CMake module files
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director' for CMake config files
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director/lib'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director/lib/pkgconfig/cam_director.pc'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages'
+[2.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_director', 'pythonpath')
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/hook/pythonpath.ps1'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/hook/pythonpath.dsv'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/hook/pythonpath.sh'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/cam_director/bin'
+[2.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_director)
+[2.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/package.ps1'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/package.dsv'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/package.sh'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/package.bash'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/package.zsh'
+[2.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/cam_director/share/colcon-core/packages/cam_director)
+[2.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('liquidlens', 'pythonpath_develop')
+[2.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/liquidlens/share/liquidlens/hook/pythonpath_develop.ps1'
+[2.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/liquidlens' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/liquidlens/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/liquidlens/build --no-deps symlink_data
+[2.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/build/liquidlens/share/liquidlens/hook/pythonpath_develop.dsv'
+[2.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/liquidlens/share/liquidlens/hook/pythonpath_develop.sh'
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens' for CMake module files
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens' for CMake config files
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens/lib'
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens/bin'
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens/lib/pkgconfig/liquidlens.pc'
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages'
+[2.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('liquidlens', 'pythonpath')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/hook/pythonpath.ps1'
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/hook/pythonpath.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/hook/pythonpath.sh'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/liquidlens/bin'
+[2.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(liquidlens)
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/package.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/package.dsv'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/package.sh'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/package.bash'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/package.zsh'
+[2.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/liquidlens/share/colcon-core/packages/liquidlens)
+[2.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('filtered_pointcloud_pkg', 'pythonpath_develop')
+[2.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath_develop.ps1'
+[2.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build --no-deps symlink_data
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath_develop.dsv'
+[2.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath_develop.sh'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg' for CMake module files
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg' for CMake config files
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/bin'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/pkgconfig/filtered_pointcloud_pkg.pc'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages'
+[2.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('filtered_pointcloud_pkg', 'pythonpath')
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath.ps1'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath.dsv'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath.sh'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/bin'
+[2.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(filtered_pointcloud_pkg)
+[2.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/package.ps1'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/package.dsv'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/package.sh'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/package.bash'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/package.zsh'
+[2.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/colcon-core/packages/filtered_pointcloud_pkg)
+[2.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('filterwheel', 'pythonpath_develop')
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/filterwheel/share/filterwheel/hook/pythonpath_develop.ps1'
+[2.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/filterwheel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filterwheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filterwheel/build --no-deps symlink_data
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/build/filterwheel/share/filterwheel/hook/pythonpath_develop.dsv'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/filterwheel/share/filterwheel/hook/pythonpath_develop.sh'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel' for CMake module files
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel' for CMake config files
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel/lib'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel/bin'
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel/lib/pkgconfig/filterwheel.pc'
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages'
+[2.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('filterwheel', 'pythonpath')
+[2.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/hook/pythonpath.ps1'
+[2.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/hook/pythonpath.dsv'
+[2.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/hook/pythonpath.sh'
+[2.889s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/filterwheel/bin'
+[2.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(filterwheel)
+[2.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/package.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/package.dsv'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/package.sh'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/package.bash'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/filterwheel/share/filterwheel/package.zsh'
+[2.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/filterwheel/share/colcon-core/packages/filterwheel)
+[2.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_launcher', 'pythonpath_develop')
+[2.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/package_launcher/share/package_launcher/hook/pythonpath_develop.ps1'
+[2.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dexter/ROS2/FilterCam/build/package_launcher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/package_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/package_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/package_launcher/build --no-deps symlink_data
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/build/package_launcher/share/package_launcher/hook/pythonpath_develop.dsv'
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/build/package_launcher/share/package_launcher/hook/pythonpath_develop.sh'
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher' for CMake module files
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher' for CMake config files
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher/lib'
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher/bin'
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher/lib/pkgconfig/package_launcher.pc'
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher/lib/python3.12/site-packages'
+[2.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_launcher', 'pythonpath')
+[2.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/hook/pythonpath.ps1'
+[2.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/hook/pythonpath.dsv'
+[2.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/hook/pythonpath.sh'
+[2.950s] Level 1:colcon.colcon_core.environment:checking '/home/dexter/ROS2/FilterCam/install/package_launcher/bin'
+[2.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_launcher)
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/package.ps1'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/package.dsv'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/package.sh'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/package.bash'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/dexter/ROS2/FilterCam/install/package_launcher/share/package_launcher/package.zsh'
+[2.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dexter/ROS2/FilterCam/install/package_launcher/share/colcon-core/packages/package_launcher)
+[2.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.953s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.959s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.978s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dexter/ROS2/FilterCam/install/local_setup.ps1'
+[2.979s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dexter/ROS2/FilterCam/install/_local_setup_util_ps1.py'
+[2.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dexter/ROS2/FilterCam/install/setup.ps1'
+[2.981s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dexter/ROS2/FilterCam/install/local_setup.sh'
+[2.981s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dexter/ROS2/FilterCam/install/_local_setup_util_sh.py'
+[2.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dexter/ROS2/FilterCam/install/setup.sh'
+[2.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dexter/ROS2/FilterCam/install/local_setup.bash'
+[2.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dexter/ROS2/FilterCam/install/setup.bash'
+[2.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dexter/ROS2/FilterCam/install/local_setup.zsh'
+[2.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dexter/ROS2/FilterCam/install/setup.zsh'

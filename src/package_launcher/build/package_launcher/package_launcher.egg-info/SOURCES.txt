@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+launch/launch_packages.launch.py
+package_launcher/__init__.py
+package_launcher.egg-info/PKG-INFO
+package_launcher.egg-info/SOURCES.txt
+package_launcher.egg-info/dependency_links.txt
+package_launcher.egg-info/requires.txt
+package_launcher.egg-info/top_level.txt
+package_launcher.egg-info/zip-safe
+resource/package_launcher

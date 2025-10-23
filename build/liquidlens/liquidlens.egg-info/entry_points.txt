@@ -1,0 +1,2 @@
+[console_scripts]
+lens_control_node = liquidlens.lens_control:main

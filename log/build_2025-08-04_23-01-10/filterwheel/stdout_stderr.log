@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing filterwheel.egg-info/PKG-INFO
+writing dependency_links to filterwheel.egg-info/dependency_links.txt
+writing entry points to filterwheel.egg-info/entry_points.txt
+writing requirements to filterwheel.egg-info/requires.txt
+writing top-level names to filterwheel.egg-info/top_level.txt
+reading manifest file 'filterwheel.egg-info/SOURCES.txt'
+writing manifest file 'filterwheel.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages/filterwheel.egg-link (link to .)
+Installing filter_wheel_control_node script to /home/dexter/ROS2/FilterCam/install/filterwheel/lib/filterwheel
+
+Installed /home/dexter/ROS2/FilterCam/build/filterwheel
+running symlink_data

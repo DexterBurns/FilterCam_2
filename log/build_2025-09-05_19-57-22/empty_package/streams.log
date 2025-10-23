@@ -1,0 +1,15 @@
+[2.157s] Invoking command in '/home/dexter/ROS2/FilterCam/build/empty_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/empty_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/empty_package/build --no-deps symlink_data
+[2.510s] running develop
+[2.783s] running egg_info
+[2.813s] writing empty_package.egg-info/PKG-INFO
+[2.814s] writing dependency_links to empty_package.egg-info/dependency_links.txt
+[2.814s] writing requirements to empty_package.egg-info/requires.txt
+[2.814s] writing top-level names to empty_package.egg-info/top_level.txt
+[2.878s] reading manifest file 'empty_package.egg-info/SOURCES.txt'
+[2.879s] writing manifest file 'empty_package.egg-info/SOURCES.txt'
+[2.910s] running build_ext
+[2.910s] Creating /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty-package.egg-link (link to .)
+[2.911s] 
+[2.911s] Installed /home/dexter/ROS2/FilterCam/build/empty_package
+[2.911s] running symlink_data
+[3.010s] Invoked command in '/home/dexter/ROS2/FilterCam/build/empty_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/empty_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/empty_package/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating liquidlens.egg-info
+writing liquidlens.egg-info/PKG-INFO
+writing dependency_links to liquidlens.egg-info/dependency_links.txt
+writing entry points to liquidlens.egg-info/entry_points.txt
+writing requirements to liquidlens.egg-info/requires.txt
+writing top-level names to liquidlens.egg-info/top_level.txt
+writing manifest file 'liquidlens.egg-info/SOURCES.txt'
+reading manifest file 'liquidlens.egg-info/SOURCES.txt'
+writing manifest file 'liquidlens.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages/liquidlens.egg-link (link to .)
+Installing lens_control_node script to /home/dexter/ROS2/FilterCam/install/liquidlens/lib/liquidlens
+
+Installed /home/dexter/ROS2/FilterCam/build/liquidlens
+running symlink_data
+creating /home/dexter/ROS2/FilterCam/install/liquidlens/share/ament_index
+creating /home/dexter/ROS2/FilterCam/install/liquidlens/share/ament_index/resource_index
+creating /home/dexter/ROS2/FilterCam/install/liquidlens/share/ament_index/resource_index/packages
+symbolically linking /home/dexter/ROS2/FilterCam/build/liquidlens/resource/liquidlens -> /home/dexter/ROS2/FilterCam/install/liquidlens/share/ament_index/resource_index/packages
+symbolically linking /home/dexter/ROS2/FilterCam/build/liquidlens/package.xml -> /home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens
+creating /home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/launch
+symbolically linking /home/dexter/ROS2/FilterCam/build/liquidlens/launch/liquid_lens_control.launch.py -> /home/dexter/ROS2/FilterCam/install/liquidlens/share/liquidlens/launch

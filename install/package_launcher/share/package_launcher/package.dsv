@@ -1,0 +1,9 @@
+source;share/package_launcher/hook/pythonpath.ps1
+source;share/package_launcher/hook/pythonpath.dsv
+source;share/package_launcher/hook/pythonpath.sh
+source;share/package_launcher/hook/ament_prefix_path.ps1
+source;share/package_launcher/hook/ament_prefix_path.dsv
+source;share/package_launcher/hook/ament_prefix_path.sh
+source;../../build/package_launcher/share/package_launcher/hook/pythonpath_develop.ps1
+source;../../build/package_launcher/share/package_launcher/hook/pythonpath_develop.dsv
+source;../../build/package_launcher/share/package_launcher/hook/pythonpath_develop.sh

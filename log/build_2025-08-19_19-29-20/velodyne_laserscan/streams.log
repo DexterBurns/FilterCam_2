@@ -1,0 +1,40 @@
+[0.046s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_laserscan -- -j16 -l16
+[1.220s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[14.226s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[14.573s] [ 50%] Built target velodyne_laserscan
+[14.602s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[17.246s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[17.397s] [100%] Built target velodyne_laserscan_node
+[17.409s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_laserscan -- -j16 -l16
+[17.411s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_laserscan
+[17.418s] -- Install configuration: "Debug"
+[17.419s] -- Execute custom install script
+[17.419s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[17.420s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[17.420s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[17.420s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[17.421s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[17.421s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[17.421s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[17.422s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[17.422s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[17.422s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[17.422s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[17.422s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[17.422s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[17.423s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[17.423s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[17.423s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[17.431s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[17.431s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[17.431s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.431s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[17.431s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.431s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[17.432s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[17.432s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[17.433s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[17.447s] -- Set non-toolchain portion of runtime path of "/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[17.448s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport.cmake
+[17.448s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport-debug.cmake
+[17.450s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_laserscan

@@ -1,0 +1,89 @@
+[0.015s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud -- -j16 -l16
+[0.110s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.112s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.146s] [ 22%] [32mBuilding CXX object CMakeFiles/velodyne_cloud_types.dir/src/lib/organized_cloudXYZIRT.cpp.o[0m
+[0.146s] [ 22%] [32mBuilding CXX object CMakeFiles/velodyne_cloud_types.dir/src/lib/pointcloudXYZIRT.cpp.o[0m
+[0.176s] [ 27%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/rawdata.cpp.o[0m
+[0.180s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/calibration.cpp.o[0m
+[4.699s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.790s] [ 38%] Built target gtest_main
+[7.939s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.145s] [ 44%] Built target gtest
+[8.263s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[9.942s] [ 55%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[10.212s] [ 55%] Built target velodyne_rawdata
+[10.243s] [ 61%] [32mBuilding CXX object tests/CMakeFiles/test_calibration.dir/test_calibration.cpp.o[0m
+[10.697s] [ 66%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[10.886s] [ 66%] Built target velodyne_cloud_types
+[10.937s] [ 72%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[11.237s] [ 77%] [32m[1mLinking CXX executable test_calibration[0m
+[11.446s] [ 77%] Built target test_calibration
+[13.869s] [ 83%] [32m[1mLinking CXX executable test_row_step[0m
+[14.123s] [ 83%] Built target test_row_step
+[21.964s] [ 88%] [32m[1mLinking CXX shared library libtransform.so[0m
+[22.414s] [ 88%] Built target transform
+[22.453s] [ 94%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[26.776s] [100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[27.010s] [100%] Built target velodyne_transform_node
+[27.022s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud -- -j16 -l16
+[27.024s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud
+[27.031s] -- Install configuration: "Debug"
+[27.033s] -- Execute custom install script
+[27.033s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[27.034s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[27.034s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[27.034s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[27.034s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[27.034s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[27.034s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[27.035s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[27.035s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[27.035s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLS128-velodyne_transform_node-params.yaml
+[27.035s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-HDL32E-launch.py
+[27.035s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-composed-launch.py
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-launch.py
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[27.036s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS128.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[27.037s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[27.039s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.sh
+[27.039s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.dsv
+[27.039s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[27.039s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[27.039s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[27.039s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[27.040s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[27.040s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[27.040s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[27.040s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[27.040s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[27.040s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[27.040s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[27.048s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[27.048s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_libraries-extras.cmake
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_targets-extras.cmake
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[27.049s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[27.051s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[27.056s] -- Set non-toolchain portion of runtime path of "/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+[27.057s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[27.059s] -- Set non-toolchain portion of runtime path of "/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""
+[27.061s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libtransform.so
+[27.080s] -- Set non-toolchain portion of runtime path of "/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libtransform.so" to ""
+[27.081s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport.cmake
+[27.081s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport-debug.cmake
+[27.084s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/home/dexter/ROS2/FilterCam/install/velodyne:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud:/home/dexter/ROS2/FilterCam/install/velodyne_driver:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib:/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib:/home/dexter/ROS2/FilterCam/install/velodyne_laserscan/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_pointcloud

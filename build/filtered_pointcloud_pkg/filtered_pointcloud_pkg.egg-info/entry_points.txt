@@ -1,0 +1,2 @@
+[console_scripts]
+threshold_node = filtered_pointcloud_pkg.threshold_node:main

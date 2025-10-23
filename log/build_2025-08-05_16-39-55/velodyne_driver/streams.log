@@ -1,0 +1,61 @@
+[0.026s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_driver -- -j16 -l16
+[0.071s] [  8%] [32mBuilding CXX object CMakeFiles/velodyne_input.dir/src/lib/input.cpp.o[0m
+[0.087s] [ 25%] Built target gtest
+[0.091s] [ 41%] Built target gtest_main
+[2.720s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[2.816s] [ 50%] Built target velodyne_input
+[2.835s] [ 58%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[2.836s] [ 66%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[5.858s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[6.023s] [ 75%] Built target time_test
+[11.249s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[11.638s] [ 83%] Built target velodyne_driver
+[11.658s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[14.427s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[14.600s] [100%] Built target velodyne_driver_node
+[14.611s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_driver -- -j16 -l16
+[14.612s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_driver
+[14.619s] -- Install configuration: "Debug"
+[14.619s] -- Execute custom install script
+[14.620s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[14.628s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[14.636s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/include/velodyne_driver/input.hpp
+[14.644s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[14.652s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/config/HDL32E-velodyne_driver_node-params.yaml
+[14.660s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[14.668s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[14.676s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[14.683s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-HDL32E-launch.py
+[14.693s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[14.702s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[14.710s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[14.718s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[14.726s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[14.735s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[14.742s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/velodyne_driver/vdump
+[14.750s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[14.758s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[14.765s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[14.772s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[14.779s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[14.787s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[14.795s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[14.803s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[14.812s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[14.819s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[14.827s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.dsv
+[14.834s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[14.842s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[14.850s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.857s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_targets-extras.cmake
+[14.865s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.873s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[14.880s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[14.888s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/package.xml
+[14.896s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/libvelodyne_input.so
+[14.896s] -- Set non-toolchain portion of runtime path of "/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/libvelodyne_input.so" to ""
+[14.897s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/libvelodyne_driver.so
+[14.912s] -- Set non-toolchain portion of runtime path of "/home/dexter/ROS2/FilterCam/install/velodyne_driver/lib/libvelodyne_driver.so" to ""
+[14.912s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport.cmake
+[14.912s] -- Installing: /home/dexter/ROS2/FilterCam/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport-debug.cmake
+[14.914s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_driver

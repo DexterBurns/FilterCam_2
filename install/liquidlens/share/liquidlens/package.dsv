@@ -1,0 +1,9 @@
+source;share/liquidlens/hook/pythonpath.ps1
+source;share/liquidlens/hook/pythonpath.dsv
+source;share/liquidlens/hook/pythonpath.sh
+source;share/liquidlens/hook/ament_prefix_path.ps1
+source;share/liquidlens/hook/ament_prefix_path.dsv
+source;share/liquidlens/hook/ament_prefix_path.sh
+source;../../build/liquidlens/share/liquidlens/hook/pythonpath_develop.ps1
+source;../../build/liquidlens/share/liquidlens/hook/pythonpath_develop.dsv
+source;../../build/liquidlens/share/liquidlens/hook/pythonpath_develop.sh

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info
+writing ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/requires.txt
+writing top-level names to ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/top_level.txt
+writing manifest file '../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build
+creating /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build/lib
+creating /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build/lib/filtered_pointcloud_pkg
+copying filtered_pointcloud_pkg/__init__.py -> /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build/lib/filtered_pointcloud_pkg
+copying filtered_pointcloud_pkg/threshold_node.py -> /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build/lib/filtered_pointcloud_pkg
+running install
+running install_lib
+creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered_pointcloud_pkg
+copying /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build/lib/filtered_pointcloud_pkg/__init__.py -> /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered_pointcloud_pkg
+copying /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build/lib/filtered_pointcloud_pkg/threshold_node.py -> /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered_pointcloud_pkg
+byte-compiling /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered_pointcloud_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered_pointcloud_pkg/threshold_node.py to threshold_node.cpython-312.pyc
+running install_data
+creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/ament_index
+creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/ament_index/resource_index
+creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/ament_index/resource_index/packages
+copying resource/filtered_pointcloud_pkg -> /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg
+creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/launch
+copying launch/threshold_launch.launch.py -> /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/launch
+creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/srv
+copying srv/FilterLimits.srv -> /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/srv
+running install_egg_info
+Copying ../../build/filtered_pointcloud_pkg/filtered_pointcloud_pkg.egg-info to /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered_pointcloud_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing threshold_node script to /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/filtered_pointcloud_pkg
+writing list of installed files to '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/install.log'

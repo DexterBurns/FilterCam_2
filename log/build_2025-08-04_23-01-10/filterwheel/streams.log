@@ -1,0 +1,17 @@
+[1.027s] Invoking command in '/home/dexter/ROS2/FilterCam/build/filterwheel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filterwheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filterwheel/build --no-deps symlink_data
+[1.307s] running develop
+[1.495s] running egg_info
+[1.512s] writing filterwheel.egg-info/PKG-INFO
+[1.512s] writing dependency_links to filterwheel.egg-info/dependency_links.txt
+[1.512s] writing entry points to filterwheel.egg-info/entry_points.txt
+[1.512s] writing requirements to filterwheel.egg-info/requires.txt
+[1.512s] writing top-level names to filterwheel.egg-info/top_level.txt
+[1.547s] reading manifest file 'filterwheel.egg-info/SOURCES.txt'
+[1.548s] writing manifest file 'filterwheel.egg-info/SOURCES.txt'
+[1.566s] running build_ext
+[1.566s] Creating /home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages/filterwheel.egg-link (link to .)
+[1.566s] Installing filter_wheel_control_node script to /home/dexter/ROS2/FilterCam/install/filterwheel/lib/filterwheel
+[1.567s] 
+[1.567s] Installed /home/dexter/ROS2/FilterCam/build/filterwheel
+[1.567s] running symlink_data
+[1.587s] Invoked command in '/home/dexter/ROS2/FilterCam/build/filterwheel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filterwheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filterwheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filterwheel/build --no-deps symlink_data

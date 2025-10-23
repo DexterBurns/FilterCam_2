@@ -1,0 +1,17 @@
+[3.166s] Invoking command in '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build --no-deps symlink_data
+[6.067s] running develop
+[6.495s] running egg_info
+[6.519s] writing filtered_pointcloud_pkg.egg-info/PKG-INFO
+[6.520s] writing dependency_links to filtered_pointcloud_pkg.egg-info/dependency_links.txt
+[6.524s] writing entry points to filtered_pointcloud_pkg.egg-info/entry_points.txt
+[6.524s] writing requirements to filtered_pointcloud_pkg.egg-info/requires.txt
+[6.524s] writing top-level names to filtered_pointcloud_pkg.egg-info/top_level.txt
+[6.578s] reading manifest file 'filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+[6.580s] writing manifest file 'filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+[6.611s] running build_ext
+[6.612s] Creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered-pointcloud-pkg.egg-link (link to .)
+[6.616s] Installing threshold_node script to /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/filtered_pointcloud_pkg
+[6.616s] 
+[6.616s] Installed /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg
+[6.616s] running symlink_data
+[6.648s] Invoked command in '/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg/build --no-deps symlink_data

@@ -1,0 +1,2 @@
+[console_scripts]
+filter_wheel_control_node = filterwheel.filterwheel_control:main

@@ -1,0 +1,5 @@
+/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/lib/libtransform.so
+/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport.cmake
+/home/dexter/ROS2/FilterCam/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport-debug.cmake

@@ -1,0 +1,17 @@
+[1.891s] Invoking command in '/home/dexter/ROS2/FilterCam/build/cam_director': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/cam_director/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/cam_director/build --no-deps symlink_data
+[2.269s] running develop
+[2.466s] running egg_info
+[2.484s] writing cam_director.egg-info/PKG-INFO
+[2.484s] writing dependency_links to cam_director.egg-info/dependency_links.txt
+[2.484s] writing entry points to cam_director.egg-info/entry_points.txt
+[2.484s] writing requirements to cam_director.egg-info/requires.txt
+[2.484s] writing top-level names to cam_director.egg-info/top_level.txt
+[2.520s] reading manifest file 'cam_director.egg-info/SOURCES.txt'
+[2.521s] writing manifest file 'cam_director.egg-info/SOURCES.txt'
+[2.540s] running build_ext
+[2.540s] Creating /home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages/cam-director.egg-link (link to .)
+[2.540s] Installing cam_director_node script to /home/dexter/ROS2/FilterCam/install/cam_director/lib/cam_director
+[2.540s] 
+[2.541s] Installed /home/dexter/ROS2/FilterCam/build/cam_director
+[2.541s] running symlink_data
+[2.567s] Invoked command in '/home/dexter/ROS2/FilterCam/build/cam_director' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/cam_director/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/cam_director/build --no-deps symlink_data

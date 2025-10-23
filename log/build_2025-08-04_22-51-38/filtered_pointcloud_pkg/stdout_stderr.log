@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing filtered_pointcloud_pkg.egg-info/PKG-INFO
+writing dependency_links to filtered_pointcloud_pkg.egg-info/dependency_links.txt
+writing entry points to filtered_pointcloud_pkg.egg-info/entry_points.txt
+writing requirements to filtered_pointcloud_pkg.egg-info/requires.txt
+writing top-level names to filtered_pointcloud_pkg.egg-info/top_level.txt
+reading manifest file 'filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+writing manifest file 'filtered_pointcloud_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/python3.12/site-packages/filtered-pointcloud-pkg.egg-link (link to .)
+Installing threshold_node script to /home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg/lib/filtered_pointcloud_pkg
+
+Installed /home/dexter/ROS2/FilterCam/build/filtered_pointcloud_pkg
+running symlink_data

@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver': AMENT_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dexter/ROS2/FilterCam/install/velodyne_driver
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.305s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.460s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.567s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.567s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[0.567s]   project has asked CMake to find a package configuration file provided by
+[0.567s]   "diagnostic_updater", but CMake did not find one.
+[0.567s] 
+[0.567s]   Could not find a package configuration file provided by
+[0.567s]   "diagnostic_updater" with any of the following names:
+[0.567s] 
+[0.567s]     diagnostic_updaterConfig.cmake
+[0.567s]     diagnostic_updater-config.cmake
+[0.568s] 
+[0.568s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[0.568s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[0.568s]   files.  If "diagnostic_updater" provides a separate development package or
+[0.568s]   SDK, be sure it has been installed.
+[0.568s] 
+[0.568s] [0m
+[0.568s] -- Configuring incomplete, errors occurred!
+[0.573s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_driver' returned '1': AMENT_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dexter/ROS2/FilterCam/src/velodyne/velodyne_driver -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dexter/ROS2/FilterCam/install/velodyne_driver

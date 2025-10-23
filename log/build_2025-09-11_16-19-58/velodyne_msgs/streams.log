@@ -1,0 +1,139 @@
+[0.050s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_msgs -- -j24 -l24
+[1.128s] [  2%] Built target velodyne_msgs__rosidl_generator_type_description
+[1.128s] [  2%] Built target ament_cmake_python_symlink_velodyne_msgs
+[1.128s] [  4%] Built target velodyne_msgs__cpp
+[1.128s] [ 22%] Built target velodyne_msgs__rosidl_generator_c
+[1.128s] [ 40%] Built target velodyne_msgs__rosidl_typesupport_c
+[1.128s] [ 40%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[1.129s] [ 59%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[1.129s] [ 59%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[1.129s] [ 77%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[1.129s] [ 77%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[1.129s] [ 77%] Built target velodyne_msgs
+[1.129s] [ 79%] Built target velodyne_msgs__py
+[1.129s] [ 86%] Built target velodyne_msgs__rosidl_generator_py
+[1.129s] [ 90%] Built target velodyne_msgs_s__rosidl_typesupport_fastrtps_c
+[1.129s] [ 95%] Built target velodyne_msgs_s__rosidl_typesupport_introspection_c
+[1.130s] [100%] Built target velodyne_msgs_s__rosidl_typesupport_c
+[1.130s] running egg_info
+[1.130s] writing velodyne_msgs.egg-info/PKG-INFO
+[1.130s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[1.130s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[1.131s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[1.131s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[1.131s] [100%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[1.131s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dexter/ROS2/FilterCam/build/velodyne_msgs -- -j24 -l24
+[1.147s] Invoking command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_msgs
+[1.365s] -- Install configuration: "Debug"
+[1.365s] -- Execute custom install script
+[1.365s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[1.365s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.json
+[1.366s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.json
+[1.366s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[1.366s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[1.367s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[1.367s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[1.367s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[1.367s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[1.368s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.368s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[1.368s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[1.368s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[1.368s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[1.369s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.hpp
+[1.370s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[1.370s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[1.370s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[1.370s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.hpp
+[1.370s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.370s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[1.374s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs-2.5.1-py3.12.egg-info/PKG-INFO
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs-2.5.1-py3.12.egg-info/SOURCES.txt
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs-2.5.1-py3.12.egg-info/dependency_links.txt
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs-2.5.1-py3.12.egg-info/top_level.txt
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/__init__.py
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/msg/__init__.py
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/msg/_velodyne_packet.py
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/msg/_velodyne_scan.py
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.so
+[1.375s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.so
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.so
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.so
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[1.376s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[1.377s] -- Symlinking: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[1.377s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[1.378s] -- Up-to-date symlink: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[1.378s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[1.378s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[1.378s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.378s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[1.378s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[1.378s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[1.379s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[1.379s] Listing '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs'...
+[1.379s] Listing '/home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/python3.12/site-packages/velodyne_msgs/msg'...
+[1.379s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[1.379s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[1.380s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-debug.cmake
+[1.380s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-debug.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-debug.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-debug.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-debug.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake
+[1.381s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[1.382s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-debug.cmake
+[1.382s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[1.382s] -- Up-to-date: /home/dexter/ROS2/FilterCam/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-debug.cmake
+[1.389s] Invoked command in '/home/dexter/ROS2/FilterCam/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dexter/ROS2/FilterCam/install/package_launcher:/home/dexter/ROS2/FilterCam/install/liquidlens:/home/dexter/ROS2/FilterCam/install/filterwheel:/home/dexter/ROS2/FilterCam/install/filtered_pointcloud_pkg:/home/dexter/ROS2/FilterCam/install/empty_package:/home/dexter/ROS2/FilterCam/install/cam_director:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dexter/ROS2/FilterCam/build/velodyne_msgs

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dexter/ROS2/FilterCam/build/velodyne_msgs/rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.so" "TARGETS" "velodyne_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/velodyne_msgs")

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing empty_package.egg-info/PKG-INFO
+writing dependency_links to empty_package.egg-info/dependency_links.txt
+writing requirements to empty_package.egg-info/requires.txt
+writing top-level names to empty_package.egg-info/top_level.txt
+reading manifest file 'empty_package.egg-info/SOURCES.txt'
+writing manifest file 'empty_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty-package.egg-link (link to .)
+
+Installed /home/dexter/ROS2/FilterCam/build/empty_package
+running symlink_data
+symbolically linking /home/dexter/ROS2/FilterCam/build/empty_package/resource/empty_package -> /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index/packages
+symbolically linking /home/dexter/ROS2/FilterCam/build/empty_package/package.xml -> /home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package

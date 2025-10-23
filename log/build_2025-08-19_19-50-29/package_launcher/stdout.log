@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing package_launcher.egg-info/PKG-INFO
+writing dependency_links to package_launcher.egg-info/dependency_links.txt
+writing requirements to package_launcher.egg-info/requires.txt
+writing top-level names to package_launcher.egg-info/top_level.txt
+reading manifest file 'package_launcher.egg-info/SOURCES.txt'
+writing manifest file 'package_launcher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/package_launcher/lib/python3.12/site-packages/package-launcher.egg-link (link to .)
+
+Installed /home/dexter/ROS2/FilterCam/build/package_launcher
+running symlink_data

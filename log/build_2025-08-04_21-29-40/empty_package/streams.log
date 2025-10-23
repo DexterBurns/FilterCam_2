@@ -1,0 +1,32 @@
+[0.639s] Invoking command in '/home/dexter/ROS2/FilterCam/src/empty_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/empty_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/empty_package build --build-base /home/dexter/ROS2/FilterCam/build/empty_package/build install --record /home/dexter/ROS2/FilterCam/build/empty_package/install.log --single-version-externally-managed install_data
+[0.859s] running egg_info
+[0.859s] creating ../../build/empty_package/empty_package.egg-info
+[0.875s] writing ../../build/empty_package/empty_package.egg-info/PKG-INFO
+[0.875s] writing dependency_links to ../../build/empty_package/empty_package.egg-info/dependency_links.txt
+[0.875s] writing requirements to ../../build/empty_package/empty_package.egg-info/requires.txt
+[0.875s] writing top-level names to ../../build/empty_package/empty_package.egg-info/top_level.txt
+[0.875s] writing manifest file '../../build/empty_package/empty_package.egg-info/SOURCES.txt'
+[0.910s] reading manifest file '../../build/empty_package/empty_package.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../build/empty_package/empty_package.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.910s] creating /home/dexter/ROS2/FilterCam/build/empty_package/build
+[0.910s] creating /home/dexter/ROS2/FilterCam/build/empty_package/build/lib
+[0.911s] creating /home/dexter/ROS2/FilterCam/build/empty_package/build/lib/empty_package
+[0.911s] copying empty_package/__init__.py -> /home/dexter/ROS2/FilterCam/build/empty_package/build/lib/empty_package
+[0.911s] running install
+[0.916s] running install_lib
+[0.933s] creating /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package
+[0.933s] copying /home/dexter/ROS2/FilterCam/build/empty_package/build/lib/empty_package/__init__.py -> /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package
+[0.933s] byte-compiling /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package/__init__.py to __init__.cpython-312.pyc
+[0.933s] running install_data
+[0.933s] creating /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index
+[0.933s] creating /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index
+[0.934s] creating /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index/packages
+[0.934s] copying resource/empty_package -> /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index/packages
+[0.934s] copying package.xml -> /home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package
+[0.934s] running install_egg_info
+[0.953s] Copying ../../build/empty_package/empty_package.egg-info to /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package-0.0.0-py3.12.egg-info
+[0.954s] running install_scripts
+[1.069s] writing list of installed files to '/home/dexter/ROS2/FilterCam/build/empty_package/install.log'
+[1.085s] Invoked command in '/home/dexter/ROS2/FilterCam/src/empty_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/empty_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/empty_package build --build-base /home/dexter/ROS2/FilterCam/build/empty_package/build install --record /home/dexter/ROS2/FilterCam/build/empty_package/install.log --single-version-externally-managed install_data

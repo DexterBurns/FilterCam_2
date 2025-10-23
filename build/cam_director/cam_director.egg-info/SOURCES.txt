@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+cam_director/__init__.py
+cam_director/director.py
+cam_director.egg-info/PKG-INFO
+cam_director.egg-info/SOURCES.txt
+cam_director.egg-info/dependency_links.txt
+cam_director.egg-info/entry_points.txt
+cam_director.egg-info/requires.txt
+cam_director.egg-info/top_level.txt
+cam_director.egg-info/zip-safe
+launch/cam_director.launch.py
+resource/cam_director

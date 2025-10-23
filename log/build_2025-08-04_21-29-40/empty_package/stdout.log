@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/empty_package/empty_package.egg-info
+writing ../../build/empty_package/empty_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/empty_package/empty_package.egg-info/dependency_links.txt
+writing requirements to ../../build/empty_package/empty_package.egg-info/requires.txt
+writing top-level names to ../../build/empty_package/empty_package.egg-info/top_level.txt
+writing manifest file '../../build/empty_package/empty_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/empty_package/empty_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/empty_package/empty_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dexter/ROS2/FilterCam/build/empty_package/build
+creating /home/dexter/ROS2/FilterCam/build/empty_package/build/lib
+creating /home/dexter/ROS2/FilterCam/build/empty_package/build/lib/empty_package
+copying empty_package/__init__.py -> /home/dexter/ROS2/FilterCam/build/empty_package/build/lib/empty_package
+running install
+running install_lib
+creating /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package
+copying /home/dexter/ROS2/FilterCam/build/empty_package/build/lib/empty_package/__init__.py -> /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package
+byte-compiling /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index
+creating /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index
+creating /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index/packages
+copying resource/empty_package -> /home/dexter/ROS2/FilterCam/install/empty_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/dexter/ROS2/FilterCam/install/empty_package/share/empty_package
+running install_egg_info
+Copying ../../build/empty_package/empty_package.egg-info to /home/dexter/ROS2/FilterCam/install/empty_package/lib/python3.12/site-packages/empty_package-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dexter/ROS2/FilterCam/build/empty_package/install.log'

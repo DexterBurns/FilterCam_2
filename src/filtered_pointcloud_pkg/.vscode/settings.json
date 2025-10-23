@@ -1,0 +1,15 @@
+{
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/dexter/ROS2/CamLidarCalib/install/velodyne_msgs/lib/python3.12/site-packages",
+        "/home/dexter/ROS2/CamLidarCalib/build/camera_calibration/src",
+        "/home/dexter/ROS2/CamLidarCalib/install/camera_calibration/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dexter/ROS2/CamLidarCalib/install/velodyne_msgs/lib/python3.12/site-packages",
+        "/home/dexter/ROS2/CamLidarCalib/build/camera_calibration/src",
+        "/home/dexter/ROS2/CamLidarCalib/install/camera_calibration/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

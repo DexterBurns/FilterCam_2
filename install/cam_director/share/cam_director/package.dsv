@@ -1,0 +1,9 @@
+source;share/cam_director/hook/pythonpath.ps1
+source;share/cam_director/hook/pythonpath.dsv
+source;share/cam_director/hook/pythonpath.sh
+source;share/cam_director/hook/ament_prefix_path.ps1
+source;share/cam_director/hook/ament_prefix_path.dsv
+source;share/cam_director/hook/ament_prefix_path.sh
+source;../../build/cam_director/share/cam_director/hook/pythonpath_develop.ps1
+source;../../build/cam_director/share/cam_director/hook/pythonpath_develop.dsv
+source;../../build/cam_director/share/cam_director/hook/pythonpath_develop.sh

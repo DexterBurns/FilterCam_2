@@ -1,0 +1,17 @@
+[0.784s] Invoking command in '/home/dexter/ROS2/FilterCam/build/liquidlens': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/liquidlens/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/liquidlens/build --no-deps symlink_data
+[1.095s] running develop
+[1.302s] running egg_info
+[1.321s] writing liquidlens.egg-info/PKG-INFO
+[1.321s] writing dependency_links to liquidlens.egg-info/dependency_links.txt
+[1.321s] writing entry points to liquidlens.egg-info/entry_points.txt
+[1.321s] writing requirements to liquidlens.egg-info/requires.txt
+[1.322s] writing top-level names to liquidlens.egg-info/top_level.txt
+[1.362s] reading manifest file 'liquidlens.egg-info/SOURCES.txt'
+[1.363s] writing manifest file 'liquidlens.egg-info/SOURCES.txt'
+[1.383s] running build_ext
+[1.384s] Creating /home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages/liquidlens.egg-link (link to .)
+[1.384s] Installing lens_control_node script to /home/dexter/ROS2/FilterCam/install/liquidlens/lib/liquidlens
+[1.384s] 
+[1.385s] Installed /home/dexter/ROS2/FilterCam/build/liquidlens
+[1.385s] running symlink_data
+[1.413s] Invoked command in '/home/dexter/ROS2/FilterCam/build/liquidlens' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dexter/ROS2/FilterCam/build/liquidlens/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexter/ROS2/FilterCam/install/liquidlens/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dexter/ROS2/FilterCam/build/liquidlens/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/dexter/ROS2/FilterCam/build/velodyne/ament_cmake_environment_hooks/local_setup.sh

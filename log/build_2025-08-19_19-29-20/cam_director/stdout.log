@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating cam_director.egg-info
+writing cam_director.egg-info/PKG-INFO
+writing dependency_links to cam_director.egg-info/dependency_links.txt
+writing entry points to cam_director.egg-info/entry_points.txt
+writing requirements to cam_director.egg-info/requires.txt
+writing top-level names to cam_director.egg-info/top_level.txt
+writing manifest file 'cam_director.egg-info/SOURCES.txt'
+reading manifest file 'cam_director.egg-info/SOURCES.txt'
+writing manifest file 'cam_director.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages/cam-director.egg-link (link to .)
+Installing cam_director_node script to /home/dexter/ROS2/FilterCam/install/cam_director/lib/cam_director
+
+Installed /home/dexter/ROS2/FilterCam/build/cam_director
+running symlink_data
+creating /home/dexter/ROS2/FilterCam/install/cam_director/share/ament_index
+creating /home/dexter/ROS2/FilterCam/install/cam_director/share/ament_index/resource_index
+creating /home/dexter/ROS2/FilterCam/install/cam_director/share/ament_index/resource_index/packages
+symbolically linking /home/dexter/ROS2/FilterCam/build/cam_director/resource/cam_director -> /home/dexter/ROS2/FilterCam/install/cam_director/share/ament_index/resource_index/packages
+symbolically linking /home/dexter/ROS2/FilterCam/build/cam_director/package.xml -> /home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director
+creating /home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/launch
+symbolically linking /home/dexter/ROS2/FilterCam/build/cam_director/launch/cam_director.launch.py -> /home/dexter/ROS2/FilterCam/install/cam_director/share/cam_director/launch

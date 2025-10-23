@@ -1,0 +1,9 @@
+source;share/filtered_pointcloud_pkg/hook/pythonpath.ps1
+source;share/filtered_pointcloud_pkg/hook/pythonpath.dsv
+source;share/filtered_pointcloud_pkg/hook/pythonpath.sh
+source;share/filtered_pointcloud_pkg/hook/ament_prefix_path.ps1
+source;share/filtered_pointcloud_pkg/hook/ament_prefix_path.dsv
+source;share/filtered_pointcloud_pkg/hook/ament_prefix_path.sh
+source;../../build/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath_develop.ps1
+source;../../build/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath_develop.dsv
+source;../../build/filtered_pointcloud_pkg/share/filtered_pointcloud_pkg/hook/pythonpath_develop.sh

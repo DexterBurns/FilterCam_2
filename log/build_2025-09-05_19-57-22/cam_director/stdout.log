@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing cam_director.egg-info/PKG-INFO
+writing dependency_links to cam_director.egg-info/dependency_links.txt
+writing entry points to cam_director.egg-info/entry_points.txt
+writing requirements to cam_director.egg-info/requires.txt
+writing top-level names to cam_director.egg-info/top_level.txt
+reading manifest file 'cam_director.egg-info/SOURCES.txt'
+writing manifest file 'cam_director.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dexter/ROS2/FilterCam/install/cam_director/lib/python3.12/site-packages/cam-director.egg-link (link to .)
+Installing cam_director_node script to /home/dexter/ROS2/FilterCam/install/cam_director/lib/cam_director
+
+Installed /home/dexter/ROS2/FilterCam/build/cam_director
+running symlink_data
